@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     new_string = self.split(".") 
+    
     binding.pry
     new_string = new_string.join(" ")
     new_string = new_string.split("?")
