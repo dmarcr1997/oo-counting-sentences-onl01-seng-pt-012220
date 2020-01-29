@@ -16,12 +16,13 @@ class String
 
   def count_sentences
     new_string = self.split(".") 
-    new_string.join(" ")
+    binding.pry
     new_string = new_string.join(" ")
     new_string = new_string.split("?")
+    binding.pry
     new_string = new_string.join("") 
     new_string = new_string.split("!")
-    puts new_string
+    binding.pry
     new_string.count
   end
 end
