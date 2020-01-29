@@ -18,6 +18,6 @@ class String
     new_string = []
     new_string = self.split(/[.?!] /) 
     binding.pry
-    new_string.length
+    new_string.count
   end
 end
