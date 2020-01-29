@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     new_string = []
-    new_string << self.split(/[.?!]/) 
+    new_string = self.split(/[.?!]/) 
     binding.pry
     new_string.count
   end
